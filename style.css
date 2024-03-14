@@ -2,6 +2,8 @@ body{
     font-family: "Tangerine", cursive;
     font-size: 1.4em;
     font-weight: bold;
+    color: #191919;
+
 }
 
 header{
@@ -9,11 +11,16 @@ header{
 }
 
 .backgroud{
-    background-color: red;
+    background-color: #ff0400;
+    color: #191919;
 }
 
 .backgroud2{
-    background-color: rgba(255, 106, 106, 0.966);
+    background-color:  #ff7673;
+}
+
+.backgroud3{
+    background-color:  #fc4743;
 }
 
 .moni{
@@ -21,7 +28,7 @@ header{
 }
 
 .carousel-item img {
-    max-height: 78vh;
+    max-height: 70vh;
     width: 100%;
 }
 
@@ -33,4 +40,23 @@ header{
 .card > img{
     height: 100%;
     object-fit: cover;
+}
+
+.nav-pills .nav-link{
+    color: #000;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #ff7673;
+    color: #fff;
+}
+
+textarea{
+    resize: none;
+    height: 120px;
+}
+
+.form-control{
+    border-color: #000;
+    padding: 2px;
 }
